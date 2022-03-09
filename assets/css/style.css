@@ -7,64 +7,55 @@ body{ background: black;
     min-width: 1462px;
 }
 header{
-    width: 100%;
-    background: black;
-    height: 70px;
+    margin: 44px auto;
+    max-width: 85%;
+    display:  -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(52, 79, 121, .56);
+    justify-content: space-between;
 }
 
 .title{
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 10px;
     padding-left: 20px;
     text-align: start;
 }
 
-.header1{
-    list-style: none;
-    position: absolute;
-    bottom: 90%;
-    left: 15%;
-    font-size: 30px;
+header .mnu_top{
+    list-style-type: none;
 }
 
-.header2{
-    list-style: none;
-    position: absolute;
-    bottom: 90%;
-    left: 25%;
-    font-size: 30px;
+header .mnu_top li{
+    display: inline-block;
+    margin-right: 75px;
 }
 
-.header3{
-    list-style: none;
-    position: absolute;
-    bottom: 90%;
-    left: 38%;
-    font-size: 30px;
+header .mnu_top li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    -webkit-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
 }
 
-.header4{
-    list-style: none;
-    position: absolute;
-    bottom: 90%;
-    left: 51%;
-    font-size: 30px;
-}
+header .mnu_top li a:hover{
+    color: blueviolet;
 
-.header5{
-    list-style: none;
-    position: absolute;
-    bottom: 90%;
-    left: 65%;
-    font-size: 30px;
 }
 
 .namber{
-    list-style: none;
-    position: absolute;
-    bottom: 92%;
-    left: 80%;
-    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
     opacity: .2;
 }
 /*Container*/
