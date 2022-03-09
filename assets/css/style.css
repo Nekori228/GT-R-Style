@@ -6,8 +6,67 @@ body{ background: black;
     padding: 0px;
     min-width: 1462px;
 }
+header{
+    width: 100%;
+    background: black;
+    height: 70px;
+}
 
+.title{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: start;
+}
 
+.header1{
+    list-style: none;
+    position: absolute;
+    bottom: 90%;
+    left: 15%;
+    font-size: 30px;
+}
+
+.header2{
+    list-style: none;
+    position: absolute;
+    bottom: 90%;
+    left: 25%;
+    font-size: 30px;
+}
+
+.header3{
+    list-style: none;
+    position: absolute;
+    bottom: 90%;
+    left: 38%;
+    font-size: 30px;
+}
+
+.header4{
+    list-style: none;
+    position: absolute;
+    bottom: 90%;
+    left: 51%;
+    font-size: 30px;
+}
+
+.header5{
+    list-style: none;
+    position: absolute;
+    bottom: 90%;
+    left: 65%;
+    font-size: 30px;
+}
+
+.namber{
+    list-style: none;
+    position: absolute;
+    bottom: 92%;
+    left: 80%;
+    font-size: 20px;
+    opacity: .2;
+}
 /*Container*/
 .container {
     width: 100%;
