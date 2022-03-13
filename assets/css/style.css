@@ -7,7 +7,7 @@ body{ background: black;
     min-width: 1462px;
 }
 header{
-    margin: 44px auto;
+    margin: 30px auto;
     max-width: 85%;
     display:  -webkit-flex;
     display: -ms-flex;
@@ -23,6 +23,8 @@ header{
     padding-top: 10px;
     padding-left: 20px;
     text-align: start;
+    text-decoration: none;
+    color: white;
 }
 
 header .mnu_top{
@@ -72,7 +74,7 @@ header .mnu_top li a:hover{
     padding-top: 10%;
 
     background:
-    url("../photo/Car.jpg") center no-repeat;
+    url("../photo/anime-gtr-35.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -236,7 +238,7 @@ footer{
 }
 
 footer a{
-    margin: 44px auto;
+    margin: 10px auto;
     max-width: 85%;
     display:  -webkit-flex;
     display: -ms-flex;
