@@ -148,20 +148,17 @@ header .mnu_top li a:hover{
 
 .section__title{
     width: 100%;
-    max-width: 100%;
     margin: 0 auto 5%;
     text-align: center;
     padding-top: 5%;
     font-size: 240%;
-    padding-left: 5%;
-
 }
 
 .section__text{
     text-align: center;
     font-size: 150%;
     display:inline-block;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .What_can {
