@@ -141,7 +141,7 @@ header .mnu_top li a:hover{
 
     font-size: 150%;
     font-weight: 700;
-    color: green;
+    color: blue;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -167,8 +167,8 @@ header .mnu_top li a:hover{
 
 .What_can{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    justify-content: center;
 }
 
 .section__text2{
@@ -200,7 +200,7 @@ header .mnu_top li a:hover{
 
 .section__text4{
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .section__photo{
@@ -222,7 +222,7 @@ header .mnu_top li a:hover{
     font-size: 20px;
     font-weight: 700;
     color: white;
-    background: green;
+    background: blue;
     text-transform: uppercase;
     text-decoration: none;
 }
