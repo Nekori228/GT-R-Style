@@ -54,23 +54,11 @@ header .mnu_top li a:hover{
 
 }
 
-.review{
-    display: flex;
-    justify-content: center;
+.www{
+    text-align: center;
     text-decoration: none;
 }
 
-.name{
-
-}
-
-.email{
-
-}
-
-.message{
-
-}
 
 .btn{
     display: inline-block;
