@@ -54,6 +54,39 @@ header .mnu_top li a:hover{
 
 }
 
+.review{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.name{
+
+}
+
+.email{
+
+}
+
+.message{
+
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1% 2%;
+
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+
+    font-size: 150%;
+    font-weight: 700;
+    color: #7B68EE;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 /*Footer*/
 footer{
     width: 100%;
