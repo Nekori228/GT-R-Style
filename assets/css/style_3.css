@@ -54,6 +54,10 @@ header .mnu_top li a:hover{
 
 }
 
+.section{
+    background: white;
+}
+
 /*Footer*/
 footer{
     width: 100%;

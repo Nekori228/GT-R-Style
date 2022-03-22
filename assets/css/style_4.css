@@ -54,25 +54,38 @@ header .mnu_top li a:hover{
 
 }
 
+.section{
+    background: white;
+}
+
 .www{
     text-align: center;
     text-decoration: none;
+    padding-top: 10%;
 }
 
-
-.btn{
+.btn2{
     display: inline-block;
     vertical-align: top;
-    padding: 1% 2%;
+    padding: 15px 40px;
 
     border: 2px solid #ffffff;
     border-radius: 40px;
 
-    font-size: 150%;
+    font-size: 20px;
     font-weight: 700;
-    color: #7B68EE;
+    color: white;
+    background: #7B68EE	;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.btn_center{
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 7%;
+    font-size: 150%;
 }
 
 /*Footer*/

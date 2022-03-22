@@ -7,6 +7,10 @@ body{ background: black;
     min-width: 1462px;
 }
 
+.section{
+    background: white;
+}
+
 .car1{
     display: flex;
     justify-content: space-evenly;

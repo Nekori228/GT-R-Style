@@ -55,6 +55,10 @@ header .mnu_top li a:hover{
 }
 
 /*Body*/
+.section{
+    background: white;
+}
+
 .donations_title{
     width: 100%;
     margin: 0 auto 5%;
@@ -65,22 +69,25 @@ header .mnu_top li a:hover{
 
 .btn_donations_title{
     width: 100%;
-    margin: 0 auto 5%;
     text-align: center;
     padding-top: 15%;
+    padding-bottom: 5%;
     font-size: 240%;
 
 }
 
-.btn{
+.btn2{
     display: inline-block;
-    padding: 1% 2%;
+    vertical-align: top;
+    padding: 15px 40px;
 
     border: 2px solid #ffffff;
     border-radius: 40px;
 
+    font-size: 20px;
     font-weight: 700;
-    color: #7B68EE;
+    color: white;
+    background: #7B68EE	;
     text-transform: uppercase;
     text-decoration: none;
 }
