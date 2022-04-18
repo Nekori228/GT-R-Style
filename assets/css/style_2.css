@@ -9,13 +9,25 @@ body{ background: black;
 
 .section{
     background: white;
+    color: black;
+}
+
+.car_block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
 }
 
 .car1{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     padding-bottom: 4%;
     padding-top: 3%;
+}
+
+.car1_div{
+    width: 7%
 }
 
 .car2 {
@@ -29,6 +41,11 @@ body{ background: black;
     justify-content: space-evenly;
     padding-bottom: 5%;
     padding-top: 1%;
+}
+
+.car1_text {
+    flex-direction: column;
+    text-align: center;
 }
 
 /*Header*/
