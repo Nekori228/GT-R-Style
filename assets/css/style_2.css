@@ -23,6 +23,13 @@ body{ background: black;
     justify-content: center;
 }
 
+.scale {
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.1);
+}
+
 .car1{
     display: flex;
     flex-direction: column;
@@ -33,6 +40,7 @@ body{ background: black;
 .car1_text {
     flex-direction: column;
     text-align: center;
+    font-size: 165%;
 }
 
 .car2 {
@@ -45,6 +53,7 @@ body{ background: black;
 .car2_text{
     flex-direction: column;
     text-align: center;
+    font-size: 165%;
 }
 
 .car3 {
@@ -57,6 +66,7 @@ body{ background: black;
 .car3_text {
     flex-direction: column;
     text-align: center;
+    font-size: 165%;
 }
 
 /*Header*/
