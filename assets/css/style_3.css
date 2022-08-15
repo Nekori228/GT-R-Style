@@ -58,6 +58,26 @@ header .mnu_top li a:hover{
     background: white;
 }
 
+.block_com {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img_com {
+    display: flex;
+    padding: 5% 5% 2%;
+}
+
+.text_com1 {
+    font-size: 200%;
+    margin: -4% 11% 40% 10%;
+}
+
+.text_com2 {
+    font-size: 100%;
+    margin: 7% 11% 40% -17%;
+}
+
 /*Footer*/
 footer{
     width: 100%;
@@ -128,3 +148,4 @@ footer nav a{
     padding-bottom: 20px;
     justify-content: space-between;
 }
+
